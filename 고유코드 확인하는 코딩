@@ -1,0 +1,15 @@
+class Main {
+  public static void main(String[] args) {
+
+    int age1 = 25;
+    int age2 = age1;
+
+
+    System.out.println(age1);
+    System.out.println(age2);
+
+    System.out.println(System.identityHashCode(age1));
+    System.out.println(System.identityHashCode(age2));
+
+  }
+}
